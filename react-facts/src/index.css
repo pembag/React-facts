@@ -32,6 +32,10 @@ nav > span {
 /* Main section */
 main {
   padding: 60px 30px;
+  background-image: url(assets/react-logo-half.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 70%;
 }
 
 main > h1 {
@@ -44,13 +48,13 @@ main > h1 {
   max-width: 400px;
 }
 
-.fact-list > li{
+.fact-list > li {
   /* margin-block: 10px; */
   padding-block: 10px;
   line-height: 19px;
 }
 
-.fact-list > li::marker{
+.fact-list > li::marker {
   color: #61dafb;
   font-size: 1.35rem;
 }
